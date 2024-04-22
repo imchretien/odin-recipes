@@ -1,3 +1,46 @@
+/* RESET */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* GENERAL */
+
+:root {
+    --bg: #F9F6F1; /* Background (Light beige) */
+    --surf: #FFFFFF; /* Surface (White) */
+    --heading: #5C463A; /* Heading text (Hazelnut) */
+    --text: #8B7D73; /* General text (Mocha) */
+    --link: #C9A186; /* Hyperlink (Chestnut) */
+    --btn-bg: #C9A186; /* Button background (Chestnut) */
+    --btn-text: #FFFFFF; /* Button text (White) */
+  }  
+
 body {
-    
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: "Poppins", sans-serif;
+}
+
+/* TYPOGRAPHY */
+
+h1, h2, h3 {
+    font-family: "Arvo", sans-serif;
+    color: var(--heading);
+}
+
+a {
+    color: var(--link);
+    text-decoration: none;
+}
+
+/* RECIPE LIST */
+
+li.recipe {
+    background-color: var(--surf);
+    padding: 8px 24px 8px 24px;
+    width: 100%;
+    border-radius: 12px;
+    list-style-type: none;
 }
